@@ -65,12 +65,13 @@
 
 ### Vanilla
 
-| Question                         | Answer | Further Reading/Material |
-| -------------------------------- | ------ | ------------------------ |
-| describe vanilla tp setup        |        |                          |
-| EOD - what happens?              |        |                          |
-| the .u variables - what they is? |        |                          |
-|                                  |        |                          |
+| Question                         | Answer                          | Further Reading/Material |
+| -------------------------------- | ------------------------------- | ------------------------ |
+| describe vanilla tp setup        |                                 |                          |
+| EOD - what happens?              |                                 |                          |
+| the .u variables - what they is? |                                 |                          |
+| What happens when RDB starts up? | Gets tp log, row count, replays |                          |
+|                                  |                                 |                          |
 
 ### Intraday
 
@@ -82,11 +83,11 @@
 
 ### RTE/Subscribers
 
-| Question | Answer | Further Reading/Material |
-| -------- | ------ | ------------------------ |
-|          |        |                          |
-|          |        |                          |
-|          |        |                          |
+| Question                | Answer | Further Reading/Material |
+| ----------------------- | ------ | ------------------------ |
+| How to subscribe to RDB |        |                          |
+|                         |        |                          |
+|                         |        |                          |
 
 ### Replay / Disaster recovery
 
@@ -106,27 +107,26 @@
 
 ## Misc
 
-| Question                                                                                     | Answer                                                                                                                                                                                      | Further Reading/Material |
-| -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ |
-| parallel execution- if master is started with -s enabled do you need to explicitly use peach | not since version 3.something                                                                                                                                                               |                          |
-| Talk about GW setup                                                                          |                                                                                                                                                                                             |                          |
-| how would you improve query times on HDBs?                                                   | monthly/yearly partitions?; <br />parted sym column, grouped on symbol columns frequently used for lookups (eg secondary id);<br /> ensure date=xxxx.xx.xx,time within(x;y),sym in symList; |                          |
-| Favourite kdb+ reserved word?                                                                | Leave the interview immediately                                                                                                                                                             |                          |
-| How to use peach                                                                             |                                                                                                                                                                                             |                          |
-| Some of the .Q functions                                                                     |                                                                                                                                                                                             |                          |
-| What is garbage collection                                                                   | .Q.gc[]                                                                                                                                                                                     |                          |
-| fby - what/when/why?                                                                         |                                                                                                                                                                                             |                          |
+| Question                                                                                     | Answer                                                                                                                                                                                      | Further Reading/Material                                              |
+| -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| parallel execution- if master is started with -s enabled do you need to explicitly use peach | not since version 3.something                                                                                                                                                               |                                                                       |
+| Talk about GW setup                                                                          |                                                                                                                                                                                             |                                                                       |
+| how would you improve query times on HDBs?                                                   | monthly/yearly partitions?; <br />parted sym column, grouped on symbol columns frequently used for lookups (eg secondary id);<br /> ensure date=xxxx.xx.xx,time within(x;y),sym in symList; |                                                                       |
+| Favourite kdb+ reserved word?                                                                | Leave the interview immediately                                                                                                                                                             |                                                                       |
+| How to use peach                                                                             |                                                                                                                                                                                             |                                                                       |
+| Some of the .Q functions                                                                     |                                                                                                                                                                                             |                                                                       |
+| What is garbage collection                                                                   | .Q.gc[]                                                                                                                                                                                     |                                                                       |
+| fby - what/when/why?                                                                         |                                                                                                                                                                                             |                                                                       |
 |                                                                                              |
-| Excluding –u, how can you manage a connecting process’ permissioning to connect to server?   |                                                                                                                                                                                             |                          |
-| Differences between symbols and strings (when to save column as symbol and strings)          |                                                                                                                                                                                             |                          |
-| Protected execution                                                                          |                                                                                                                                                                                             |                          |
-| apply/index                                                                                  |                                                                                                                                                                                             |                          |
+| Excluding –u, how can you manage a connecting process’ permissioning to connect to server?   |                                                                                                                                                                                             |                                                                       |
+| Differences between symbols and strings (when to save column as symbol and strings)          |                                                                                                                                                                                             |                                                                       |
+| Protected execution                                                                          |                                                                                                                                                                                             |                                                                       |
+| apply/index                                                                                  |                                                                                                                                                                                             |                                                                       |
 | What is a list?                                                                              |
 |                                                                                              |                                                                                                                                                                                             |
-| What is a dictionary                                                                         |                                                                                                                                                                                             |                          |
-|                                                                                              |                                                                                                                                                                                             |                          |
-|                                                                                              |                                                                                                                                                                                             |                          |
-|                                                                                              |                                                                                                                                                                                             |                          |
+| What is a dictionary                                                                         |                                                                                                                                                                                             |                                                                       |
+| What is a stepped dictionary?                                                                | apply `s# to dictionary                                                                                                                                                                     | [info](https://qriouskdb.wordpress.com/2019/01/01/step-dictionaries/) |
+
 
 
 
